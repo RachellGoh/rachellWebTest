@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Landing Page";
+    var link = "https://github.com/RachellGoh/rachellWebTest";
+}
+
+<div class="text-center">
+    <img src=~/image/icon.png />
+    <p>@Model.displayTxt</p>
+    <p>Repository: <a href="@link">@link</a></p>    
+</div>
+
